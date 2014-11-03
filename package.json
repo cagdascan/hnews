@@ -1,0 +1,28 @@
+{
+  "name": "hnews",
+  "version": "0.0.1",
+  "description": "Read Hacker News Top Stories from Terminal",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "bin": {
+    "hnews": "hnews.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cagdascan/hnews.git"
+  },
+  "keywords": [
+    "hacker",
+    "news",
+    "terminal"
+  ],
+  "author": "cagdascan",
+  "license": "MIT",
+  "dependencies": {
+    "celeri": "^0.3.4",
+    "moment": "^2.8.3",
+    "request": "^2.47.0",
+    "term-list": "^0.2.1"
+  }
+}
